@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  color: black;
+  background-image: url("../images/bg2.jpg");
+}
+
+.bg-transluscent {
+  background: rgba(245, 245, 245, 0.9);
+}
+
+.demo-btn {
+  margin: auto;
+  width: 75%;
+  background-color: #1f4296;
+}
+
+.hdr {
+  font-size: 1.5rem;
+}
+
+#logo {
+  height: 30px;
+  width: auto;
+}
+
+#portrait {
+  height: 120px;
+  width: 100px;
+}
