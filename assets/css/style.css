@@ -12,6 +12,10 @@ body {
   background: rgba(245, 245, 245, 0.9);
 }
 
+.btn {
+  color: rgba(30, 66, 150);
+}
+
 .demo-btn {
   margin: auto;
   width: 75%;
