@@ -1,37 +1,27 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  color: black;
-  background-image: url("../images/bg2.jpg");
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	color: black;
+	background-image: url("../images/bg2.jpg");
 }
 
 .bg-transluscent {
-  background: rgba(245, 245, 245, 0.9);
-}
-
-.btn {
-  color: rgba(30, 66, 150);
-}
-
-.demo-btn {
-  margin: auto;
-  width: 75%;
-  background-color: #1f4296;
+	background: rgba(245, 245, 245, 0.9);
 }
 
 .hdr {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 #logo {
-  height: 30px;
-  width: auto;
+	height: 30px;
+	width: auto;
 }
 
 #portrait {
-  height: 120px;
-  width: auto;
+	height: 120px;
+	width: auto;
 }
