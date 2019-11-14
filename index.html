@@ -26,32 +26,52 @@
 </head>
 
 <body>
-    <div class="container h-100 mx-auto my-1 static-top">
-        <div id="header" class="bg-transluscent navbar navbar-fluid navbar-light">
-            <nav class="navbar-brand">
-                <span>
-                    <img id="logo" class="mr-3" src="./assets/images/icon.png" alt="logo" />
-                </span>
-                <a class="navbar-brand h1 hdr1" href="#">Sherrie McNulty</a>
-            </nav>
-            <nav class="navbar navbar-expand-md navbar-light">
-                <div class="navbar-nav mx-auto font-weight-bold">
-                    <a href="#" class="nav-item nav-link active">About</a>
-                    <a class="nav-item nav-link" href="https://sherriemcnulty.github.io/assets/documents/resume.PDF"
-                        target="_blank">Resume</a>
-                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/sherrie-mcnulty/"
-                        target="_blank">LinkedIn</a>
-                    <a class="nav-item nav-link" href="./assets/documents/recommendation.pdf"
-                        target="_blank">Recommendation</a>
-                    <a class="nav-item nav-link"
-                        href="mailto:sherriemcnulty@gmail.com?subject=Portfolio">sherriemcnulty@gmail.com</a>
+    <div class="container mx-auto my-3 static-top bg-transluscent">
+        <nav class="navbar navbar-expand-md navbar-light bg-transluscent font-weight-bold">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand font-weight-bold" href="#">
+                        <h1>
+                            Sherrie McNulty
+                        </h1>
+                    </a>
                 </div>
-            </nav>
-        </div>
-
-        <section id="about" class="row my-3 mx-auto py-2 px-3 bg-transluscent text-black">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#" class="nav-item nav-link active">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link" href="https://sherriemcnulty.github.io/assets/documents/resume.PDF"
+                            target="_blank">
+                            Resume
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link" href="https://www.linkedin.com/in/sherrie-mcnulty/"
+                            target="_blank">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link" href="./assets/documents/recommendation.pdf" target="_blank">
+                            Recommendation
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link" href="mailto:sherriemcnulty@gmail.com?subject=Portfolio">
+                            sherriemcnulty@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="row my-3 mx-auto py-2 px-3 bg-transluscent text-black">
             <div class="col-sm-12">
-                <h2 class="hdr2">About Me</h2>
+                <h2>
+                    About Me
+                </h2>
                 <hr />
                 <img id="portrait" class="img-fluid float-sm-left px-1 py-1 mr-2 mb-2"
                     src="./assets/images/profile-picture.png" alt="Profile Picture" />
@@ -61,9 +81,9 @@
                     Virginia area.
                 </p>
                 <p>
-                    Skills: Responsive Design, REST, JSON, HTML5, CSS3, Bootstrap, Media Queries, JavaScript, jQuery,
-                    Node, Express, Handlebars, Sequelize, React, MySQL, Visual Studio Code, Postman, Git, Heroku, and
-                    Photoshop
+                    Skills: Responsive Design, REST API, JSON, HTML5, CSS3, Bootstrap, Media Queries, JavaScript,
+                    jQuery, Node, Express, Handlebars, Sequelize, React, MySQL, Visual Studio Code, Postman, Git,
+                    Heroku, and Photoshop
                 </p>
                 <p>
                     Thank you for your time and consideration.
@@ -71,64 +91,100 @@
             </div>
         </section>
 
-        <section id="projects" class="my-3 mx-auto py-2 px-3 bg-transluscent text-black">
-
-            <h2 class="hdr2">Project Demos</h2>
-            <p>Note: Heroku hosting can be slow. Please be patient.</p>
-            <hr />
-            <p>
-                <strong>Clicky Game</strong><br>
-                Technologies: Node, Express, React, REST, JSON, MySQL (Deployed on Heroku)
-            </p>
-            <p>
-                <a href="https://clicky-game-srm.herokuapp.com/" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Live
-                    Demo</a>
-                <a href="https://github.com/sherriemcnulty/memory-game2" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Github Link</a>
-            </p>
-            <p>
-                <strong>Favorite Recipes</strong><br>
-                Technologies: jQuery, Bootstrap, CSS3, REST, JSON, Node, Express-Handlebars, MySQL
-                (Deployed on Heroku)
-            </p>
-            <p>
-                <a href="https://favoriterecipes.herokuapp.com/" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Live
-                    Demo</a>
-                <a href="https://github.com/sherriemcnulty/favorite-recipes" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Github Link</a>
-            </p>
-            <p>
-                <strong>Train Schedules</strong><br>
-                Technologies: jQuery, Moment.js, Bootstrap, Dynamic HTML5, CSS3, REST, JSON, Firebase (Deployed
-                on Github)
-                <br>
-                <a href="https://sherriemcnulty.github.io/train-schedule/" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Live Demo</a>
-                <a href="https://github.com/sherriemcnulty/train-schedule" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Github Link</a>
-            </p>
-            <p>
-                <strong>Eat-da-burger</strong><br>
-                Technologies: jQuery, Bootstrap, CSS3, Node, Express, REST, JSON, MySQL (Deployed on Heroku)
-            </p>
-            <p>
-                <a href="http://eat-da-burger-srm.herokuapp.com/" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Live
-                    Demo</a>
-                <a href="https://github.com/sherriemcnulty/eat-da-burger" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Github Link</a>
-            </p>
-            <p>
-                <strong>Jiffy Giphy</strong><br>
-                Technologies: jQuery, Dynamic HTML5, Bootstrap, CSS3, REST, JSON,
-                (Deployed on Github)
-                <br>
-                <a href="https://sherriemcnulty.github.io/jiffy-giphy/" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Live Demo</a>
-                <a href="https://github.com/sherriemcnulty/jiffy-giphy" target="_blank"
-                    class="btn btn-primary text-white btn-sm rounded-0" role="button">Github Link</a> </p>
+        <section class="row my-3 mx-auto py-2 px-3 bg-transluscent text-black">
+            <div class="col-sm-12">
+                <h2>
+                    Project Demos
+                </h2>
+                <p>
+                    Note: Heroku hosting can be slow. Please be patient.
+                </p>
+                <hr />
+                <hr />
+                <h3>
+                    Clicky Game
+                </h3>
+                <p>
+                    Technologies: Node, Express, React, REST, JSON, MySQL (Deployed on Heroku)
+                </p>
+                <p>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://clicky-game-srm.herokuapp.com/" target="_blank">
+                        Live Demo
+                    </a>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://github.com/sherriemcnulty/memory-game2" target="_blank">
+                        Github Link
+                    </a>
+                </p>
+                <hr />
+                <h3>Favorite Recipes</h3>
+                <p>
+                    Technologies: jQuery, Bootstrap, CSS3, REST, JSON, Node, Express-Handlebars, MySQL
+                    (Deployed on Heroku)
+                </p>
+                <p>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://favoriterecipes.herokuapp.com/" target="_blank">
+                        Live Demo
+                    </a>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://github.com/sherriemcnulty/favorite-recipes" target="_blank">
+                        Github Link
+                    </a>
+                </p>
+                <hr />
+                <h3>
+                    Train Schedules
+                </h3>
+                <p>
+                    Technologies: jQuery, Moment.js, Bootstrap, Dynamic HTML5, CSS3, REST, JSON, Firebase (Deployed
+                    on Github)
+                </p>
+                <p>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://sherriemcnulty.github.io/train-schedule/" target="_blank">
+                        Live Demo
+                    </a>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://github.com/sherriemcnulty/train-schedule" target="_blank">
+                        Github Link
+                    </a>
+                </p>
+                <hr />
+                <h3>Eat-da-burger</h3>
+                <p>
+                    Technologies: jQuery, Bootstrap, CSS3, Node, Express, REST, JSON, MySQL (Deployed on Heroku)
+                </p>
+                <p>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="http://eat-da-burger-srm.herokuapp.com/">
+                        Live Demo
+                    </a>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://github.com/sherriemcnulty/eat-da-burger" target="_blank">
+                        Github Link
+                    </a>
+                </p>
+                <hr />
+                <h3>
+                    Jiffy Giphy
+                </h3>
+                <p>
+                    Technologies: jQuery, Dynamic HTML5, Bootstrap, CSS3, REST, JSON,
+                    (Deployed on Github)
+                </p>
+                <p>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://sherriemcnulty.github.io/jiffy-giphy/" target="_blank">
+                        Live Demo
+                    </a>
+                    <a class="btn btn-primary text-white btn-sm rounded-0" role="button"
+                        href="https://github.com/sherriemcnulty/jiffy-giphy" target="_blank">
+                        Github Link
+                    </a>
+                </p>
+            </div>
         </section>
     </div>
 </body>
