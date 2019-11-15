@@ -12,6 +12,21 @@ body {
 	background: rgba(245, 245, 245, 0.9);
 }
 
+.navbar-nav {
+	flex-direction: row;
+}
+
+.nav-link {
+	padding-right: 0.5 !important;
+	padding-left: 0.5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+	left: auto !important;
+	right: 0px;
+}
+
 #logo {
 	height: 30px;
 	width: auto;
