@@ -1,35 +1,14 @@
 html,
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	overflow: auto;
-	color: black;
 	background-image: url("../images/bg2.jpg");
+}
+
+.btn {
+	width: 5em;
 }
 
 .bg-transluscent {
 	background: rgba(245, 245, 245, 0.9);
-}
-
-.navbar-nav {
-	flex-direction: row;
-}
-
-.nav-link {
-	padding-right: 0.5 !important;
-	padding-left: 0.5rem !important;
-}
-
-/* Fixes dropdown menus placed on the right side */
-.ml-auto .dropdown-menu {
-	left: auto !important;
-	right: 0px;
-}
-
-#logo {
-	height: 30px;
-	width: auto;
 }
 
 #portrait {
