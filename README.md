@@ -1,27 +1,11 @@
 # sherriemcnulty.github.io
 
-## Live Preview
- - [Sherrie McNulty Portfolio](https://sherriemcnulty.github.io/)
+[Sherrie McNulty Portfolio](https://sherriemcnulty.github.io/)
 
-## Description
+This is a portfolio page with an introduction and access links to the following:
 
-This is a professional portfolio which contains: 
-  - information about me
-  - links to project demos
-  - my resume
-  - linkedIn profile
-  - recommendation letter
-  - email link
-
- ## Author
-  - Sherrie McNulty
- 
-## Technologies Used
-  - Bootstrap
-  - CSS3
-
-  ### Deployment
-   - Github
-  
-## 
-© Sherrie McNulty 2019
+- Project demos and code
+- Resume
+- LinkedIn profile
+- Recommendation letter
+- Email
