@@ -41,35 +41,33 @@
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
                     </button>
+                    <!-- Nav menu -->
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav justify-content-end font-weight-bold ml-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    About
+                                <a id="home-link" href="#" class="nav-link">Home
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./assets/documents/resume.PDF" target="_blank">
+                            <li>
+                                <a id="resume-link" class="not-home nav-link" href="./assets/documents/resume.PDF"
+                                    target="_blank">
                                     Resume
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/sherrie-mcnulty/" target="_blank">
-                                    LinkedIn
+                            <li id="linkedin-link" class="nav-item">
+                                <a id="linkedin-link" class="not-home nav-link"
+                                    href="https://www.linkedin.com/in/sherrie-mcnulty/" target="_blank">LinkedIn
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./assets/documents/recommendation.pdf" target="_blank">
-                                    Recommendation
+                                <a id="recommendation-link" class="not-home nav-link"
+                                    href="./assets/documents/recommendation.pdf" target="_blank">Recommendation
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="mailto:srm.codemaster@gmail.com?subject = Feedback&body = Message">
-                                    Contact
-                                </a>
+                                <a id="contact-link" class="nav-link" data-toggle="modal" data-target="#contactModal"
+                                    href="#contactModal">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +78,6 @@
         <!-- Introduction -->
         <div class="row my-3 mx-auto py-2text-black">
             <div class="col-sm-12">
-
                 <p>
                     Hello. Thank you for visiting.
                 </p>
@@ -103,11 +100,13 @@
                 <h2 class="font-weight-normal">
                     Projects
                 </h2>
+
                 <hr />
+
                 <p>
                     <!-- Recipes -->
                 <h3 class="font-weight-normal">
-                    Recipes Application
+                    Recipes Code Example
                 </h3>
                 Bootstrap, CSS, jQuery, Node, Express, MySQL, JSON, RESTful API, MVC/ORM
                 </p>
@@ -125,11 +124,13 @@
                         Code
                     </a>
                 </p>
+
                 <hr />
+
                 <!-- Train Schedule -->
                 <p>
                 <h3 class="font-weight-normal">
-                    Train Schedules
+                    Train Schedules Code Example
                 </h3>
                 Bootstrap, CSS, jQuery, Firebase, JSON, RESTful API
                 </p>
@@ -147,11 +148,13 @@
                         Code
                     </a>
                 </p>
+
                 <hr />
+
                 <!-- Jiffy Giphy -->
                 <p>
                 <h3 class="font-weight-normal">
-                    Clicky Game
+                    Clicky Game Code Example
                 </h3>
                 Bootstrap, React, MVC/ORM
                 </p>
@@ -169,11 +172,13 @@
                         Code
                     </a>
                 </p>
+
                 <hr />
+
                 <!-- Jiffy Giphy -->
                 <p>
                 <h3 class="font-weight-normal">
-                    Jiffy Giphy
+                    Jiffy Giphy Code Example
                 </h3>
                 Bootstrap, jQuery, JSON, 3rd Party API
                 </p>
@@ -191,6 +196,32 @@
                         Code
                     </a>
                 </p>
+            </div>
+        </div>
+
+        <!-- Contact Modal -->
+        <div class="modal fade" id="contactModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content text-center">
+                    <div class="modal-header d-block">
+                        <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title text-center">Contact</h5>
+                    </div>
+                    <div class="modal-body font-weight-bold">
+                        (603)424-7411
+
+                        <a class="nav-link text-secondary"
+                            href="mailto:srm.coder@gmail.com?subject = Feedback&body = Message">srmcoder@gmail.com
+                        </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
