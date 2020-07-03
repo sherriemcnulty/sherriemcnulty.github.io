@@ -27,9 +27,9 @@
 
 <body>
     <div class="container my-3 mx-auto bg-transluscent">
+        <!-- Navbar -->
         <div class="row">
             <div class="col-md-12">
-                <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="navbar-brand">
                         <img id="portrait" src="./assets/images/profile-picture.png" alt="Profile Picture" />
@@ -42,34 +42,24 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#collapsibleNavbar">
                     </button>
-                    <!-- Nav menu -->
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav justify-content-end font-weight-bold ml-auto">
                             <li class="nav-item">
-                                <a id="home-link" href="#" class="nav-link">
+                                <a id="home" class="nav-link" href="#">
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a id="resume-link" class="not-home nav-link" href="./assets/documents/resume.PDF"
-                                    target="_blank">
+                                <a id="resume" class="nav-link">
                                     Resume
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a id="linkedin-link" class="not-home nav-link"
-                                    href="https://www.linkedin.com/in/sherrie-mcnulty/" target="_blank">
+                                <a id="linkedin" class="nav-link">
                                     LinkedIn
                                 </a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a id="recommendation-link" class="not-home nav-link"
-                                    href="./assets/documents/recommendation.pdf" target="_blank">
-                                    Recommendation
-                                </a>
-                            </li> -->
                             <li class="nav-item">
-                                <a id="contact-link" class="nav-link" data-toggle="modal" data-target="#contactModal"
+                                <a id="contact" class="nav-link" data-toggle="modal" data-target="#contactModal"
                                     href="#contactModal">
                                     Contact
                                 </a>
@@ -227,6 +217,7 @@
             </div>
         </div>
     </div>
+    <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>
